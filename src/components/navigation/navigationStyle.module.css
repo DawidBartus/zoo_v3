@@ -1,0 +1,81 @@
+.arrowUp {
+  position: fixed;
+  animation: pulse 2s infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .arrowUp {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .arrowUp {
+    bottom: 30px;
+    right: 30px;
+    transition: 0.5s;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .arrowUp {
+    bottom: 40px;
+    right: 10vh;
+    transition: 0.5s;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.navContainer {
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #4545450f;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  transition: 300ms;
+}
+
+.displayFixed {
+  position: fixed;
+  top: -30px;
+  transition: 300ms;
+}
+
+.navContainer button {
+  font-size: 20px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 8px;
+  transition: 250ms;
+  color: white;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(66, 68, 90, 1);
+  box-shadow: 1px 1px 12px 0px rgba(66, 68, 90, 1);
+}
+
+.navContainer button:hover {
+  background-color: #09121a94;
+  cursor: pointer;
+  transform: translate3d(0px, 5px, 0) scale(1.1);
+  transition: 250ms;
+}
+.blackButton {
+  background-color: #4545459f;
+}
+.lightButton {
+  background-color: transparent;
+}

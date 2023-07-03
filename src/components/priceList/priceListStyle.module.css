@@ -1,0 +1,108 @@
+.priceList {
+  width: 100% - 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 600px) {
+  .priceList {
+    background-color: #87ceeb;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 600px) {
+  .priceList {
+    margin: 10px;
+  }
+}
+
+.priceListHolder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  background-color: #ff620023;
+  /* background-color: #45454523; */
+}
+.priceListHolder {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.priceListIteam {
+  background: linear-gradient(-45deg, #9f9f9f 0%, #ffffff 100%);
+  min-width: 150px;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
+  box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
+  transition: 300ms;
+}
+
+.priceListPrice {
+  font-size: 16px;
+  margin: 15px 0px 10px;
+}
+.priceListParagraph {
+  margin: 10px;
+  font-size: 18px;
+}
+.quantity,
+.price {
+  font-size: 16px;
+  margin: 0;
+}
+.calcBttns > button {
+  margin: 4px;
+}
+.priceListHeaders {
+  padding: 15px;
+}
+.priceListCalcOn {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.totalSumFixed {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.629);
+  border-radius: 8px;
+  padding: 12px 8px;
+}
+.calcBttnOnOff {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.calcBttn {
+  height: 22px;
+  width: 22px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0;
+}
+.calcBttn:hover {
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+  box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+}
+.calcBttnOnOff:hover {
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+  box-shadow: 2px 2px 12px 0px rgba(66, 68, 90, 1);
+}
