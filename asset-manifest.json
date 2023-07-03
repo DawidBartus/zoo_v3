@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zoo_v3/static/css/main.a18df29e.css",
+    "main.js": "/zoo_v3/static/js/main.419bc26b.js",
+    "static/media/header.jpg": "/zoo_v3/static/media/header.f142b23171343d9f6ca1.jpg",
+    "index.html": "/zoo_v3/index.html",
+    "main.a18df29e.css.map": "/zoo_v3/static/css/main.a18df29e.css.map",
+    "main.419bc26b.js.map": "/zoo_v3/static/js/main.419bc26b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a18df29e.css",
+    "static/js/main.419bc26b.js"
+  ]
+}
