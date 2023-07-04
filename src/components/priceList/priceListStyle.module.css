@@ -6,19 +6,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-}
-
-@media (max-width: 600px) {
-  .priceList {
-    background-color: #87ceeb;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-@media (min-width: 600px) {
-  .priceList {
-    margin: 10px;
-  }
+  margin: 10px;
 }
 
 .priceListHolder {
@@ -28,8 +16,7 @@
   display: flex;
   align-items: center;
   font-size: 30px;
-  background-color: #ff620023;
-  /* background-color: #45454523; */
+  background-color: #6f4f63;
 }
 .priceListHolder {
   font-size: 36px;
@@ -38,8 +25,11 @@
 
 .priceListIteam {
   background: linear-gradient(-45deg, #9f9f9f 0%, #ffffff 100%);
-  min-width: 150px;
+  flex: 1;
+  min-width: 184px;
   max-width: 250px;
+  flex-wrap: wrap;
+  text-align: center;
   text-align: center;
   border-radius: 8px;
   -webkit-box-shadow: 4px 4px 12px 0px rgba(66, 68, 90, 1);
